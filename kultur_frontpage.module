@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the KulturØen Frontpage feature.
+ */
+
+include_once 'kultur_frontpage.features.inc';
