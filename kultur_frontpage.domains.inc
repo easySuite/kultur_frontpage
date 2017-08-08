@@ -262,8 +262,14 @@ function kultur_frontpage_domain_theme_default_themes() {
           0 => 'public://color/ddbasic-c680ee72/ddbasic.styles.min.css',
         ),
       ),
-      'status' => 1,
+      'status' => 0,
       'filepath' => 'ddbasic-c680ee72',
+    ),
+    'kultur_subtheme' => array(
+      'theme' => 'kultur_subtheme',
+      'settings' => NULL,
+      'status' => 1,
+      'filepath' => '',
     ),
   );
 

@@ -137,6 +137,29 @@ function kultur_frontpage_default_page_manager_handlers() {
     $display->content['new-10bf5aa9-f209-42b0-bba4-cc6ba8aee079'] = $pane;
     $display->panels['branding'][1] = 'new-10bf5aa9-f209-42b0-bba4-cc6ba8aee079';
     $pane = new stdClass();
+    $pane->pid = 'new-3202a330-fa71-44f2-be0a-265ed734b321';
+    $pane->panel = 'branding';
+    $pane->type = 'block';
+    $pane->subtype = 'menu_block-2';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 1,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+      'style' => 'default',
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 2;
+    $pane->locks = array();
+    $pane->uuid = '3202a330-fa71-44f2-be0a-265ed734b321';
+    $display->content['new-3202a330-fa71-44f2-be0a-265ed734b321'] = $pane;
+    $display->panels['branding'][2] = 'new-3202a330-fa71-44f2-be0a-265ed734b321';
+    $pane = new stdClass();
     $pane->pid = 'new-1769a64d-2cbe-490d-87aa-a2c3ee082997';
     $pane->panel = 'content';
     $pane->type = 'page_messages';
@@ -549,29 +572,6 @@ function kultur_frontpage_default_page_manager_handlers() {
     $pane->uuid = '94a239e5-00e0-4807-917f-df52c53405e7';
     $display->content['new-94a239e5-00e0-4807-917f-df52c53405e7'] = $pane;
     $display->panels['navigation'][0] = 'new-94a239e5-00e0-4807-917f-df52c53405e7';
-    $pane = new stdClass();
-    $pane->pid = 'new-3202a330-fa71-44f2-be0a-265ed734b321';
-    $pane->panel = 'navigation';
-    $pane->type = 'block';
-    $pane->subtype = 'menu_block-2';
-    $pane->shown = TRUE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_title' => 1,
-      'override_title_text' => '',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-      'style' => 'default',
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 1;
-    $pane->locks = array();
-    $pane->uuid = '3202a330-fa71-44f2-be0a-265ed734b321';
-    $display->content['new-3202a330-fa71-44f2-be0a-265ed734b321'] = $pane;
-    $display->panels['navigation'][1] = 'new-3202a330-fa71-44f2-be0a-265ed734b321';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
