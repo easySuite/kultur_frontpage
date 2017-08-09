@@ -383,29 +383,6 @@ function kultur_frontpage_default_page_manager_handlers() {
     $display->content['new-d59734fe-4c31-4b3c-af53-5c2bad02f9cf'] = $pane;
     $display->panels['footer'][3] = 'new-d59734fe-4c31-4b3c-af53-5c2bad02f9cf';
     $pane = new stdClass();
-    $pane->pid = 'new-f06a4c37-1ed2-4a64-8502-7b8d4d0619b0';
-    $pane->panel = 'header';
-    $pane->type = 'block';
-    $pane->subtype = 'search-form';
-    $pane->shown = FALSE;
-    $pane->access = array();
-    $pane->configuration = array(
-      'override_title' => 1,
-      'override_title_text' => '',
-    );
-    $pane->cache = array();
-    $pane->style = array(
-      'settings' => NULL,
-      'style' => 'default',
-    );
-    $pane->css = array();
-    $pane->extras = array();
-    $pane->position = 0;
-    $pane->locks = array();
-    $pane->uuid = 'f06a4c37-1ed2-4a64-8502-7b8d4d0619b0';
-    $display->content['new-f06a4c37-1ed2-4a64-8502-7b8d4d0619b0'] = $pane;
-    $display->panels['header'][0] = 'new-f06a4c37-1ed2-4a64-8502-7b8d4d0619b0';
-    $pane = new stdClass();
     $pane->pid = 'new-51d74d8b-0aeb-4c73-8c20-b5d4fdd40a39';
     $pane->panel = 'header';
     $pane->type = 'block';
@@ -423,11 +400,11 @@ function kultur_frontpage_default_page_manager_handlers() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 1;
+    $pane->position = 0;
     $pane->locks = array();
     $pane->uuid = '51d74d8b-0aeb-4c73-8c20-b5d4fdd40a39';
     $display->content['new-51d74d8b-0aeb-4c73-8c20-b5d4fdd40a39'] = $pane;
-    $display->panels['header'][1] = 'new-51d74d8b-0aeb-4c73-8c20-b5d4fdd40a39';
+    $display->panels['header'][0] = 'new-51d74d8b-0aeb-4c73-8c20-b5d4fdd40a39';
     $pane = new stdClass();
     $pane->pid = 'new-d9c1432b-77cc-432c-987a-eb64569a0b88';
     $pane->panel = 'header';
@@ -450,11 +427,11 @@ function kultur_frontpage_default_page_manager_handlers() {
       'css_class' => 'js-mobile-user-menu',
     );
     $pane->extras = array();
-    $pane->position = 2;
+    $pane->position = 1;
     $pane->locks = array();
     $pane->uuid = 'd9c1432b-77cc-432c-987a-eb64569a0b88';
     $display->content['new-d9c1432b-77cc-432c-987a-eb64569a0b88'] = $pane;
-    $display->panels['header'][2] = 'new-d9c1432b-77cc-432c-987a-eb64569a0b88';
+    $display->panels['header'][1] = 'new-d9c1432b-77cc-432c-987a-eb64569a0b88';
     $pane = new stdClass();
     $pane->pid = 'new-37d18c98-64ec-448f-ac62-ad0cc199fe06';
     $pane->panel = 'header';
@@ -472,11 +449,11 @@ function kultur_frontpage_default_page_manager_handlers() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 3;
+    $pane->position = 2;
     $pane->locks = array();
     $pane->uuid = '37d18c98-64ec-448f-ac62-ad0cc199fe06';
     $display->content['new-37d18c98-64ec-448f-ac62-ad0cc199fe06'] = $pane;
-    $display->panels['header'][3] = 'new-37d18c98-64ec-448f-ac62-ad0cc199fe06';
+    $display->panels['header'][2] = 'new-37d18c98-64ec-448f-ac62-ad0cc199fe06';
     $pane = new stdClass();
     $pane->pid = 'new-878eb4d9-6377-4af3-ace5-bf3dd3988dad';
     $pane->panel = 'header';
@@ -508,11 +485,11 @@ function kultur_frontpage_default_page_manager_handlers() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 4;
+    $pane->position = 3;
     $pane->locks = array();
     $pane->uuid = '878eb4d9-6377-4af3-ace5-bf3dd3988dad';
     $display->content['new-878eb4d9-6377-4af3-ace5-bf3dd3988dad'] = $pane;
-    $display->panels['header'][4] = 'new-878eb4d9-6377-4af3-ace5-bf3dd3988dad';
+    $display->panels['header'][3] = 'new-878eb4d9-6377-4af3-ace5-bf3dd3988dad';
     $pane = new stdClass();
     $pane->pid = 'new-5b25369c-89e4-4f49-857d-6b4b5b0d456a';
     $pane->panel = 'header';
@@ -544,11 +521,11 @@ function kultur_frontpage_default_page_manager_handlers() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 5;
+    $pane->position = 4;
     $pane->locks = array();
     $pane->uuid = '5b25369c-89e4-4f49-857d-6b4b5b0d456a';
     $display->content['new-5b25369c-89e4-4f49-857d-6b4b5b0d456a'] = $pane;
-    $display->panels['header'][5] = 'new-5b25369c-89e4-4f49-857d-6b4b5b0d456a';
+    $display->panels['header'][4] = 'new-5b25369c-89e4-4f49-857d-6b4b5b0d456a';
     $pane = new stdClass();
     $pane->pid = 'new-94a239e5-00e0-4807-917f-df52c53405e7';
     $pane->panel = 'navigation';
@@ -572,6 +549,29 @@ function kultur_frontpage_default_page_manager_handlers() {
     $pane->uuid = '94a239e5-00e0-4807-917f-df52c53405e7';
     $display->content['new-94a239e5-00e0-4807-917f-df52c53405e7'] = $pane;
     $display->panels['navigation'][0] = 'new-94a239e5-00e0-4807-917f-df52c53405e7';
+    $pane = new stdClass();
+    $pane->pid = 'new-f06a4c37-1ed2-4a64-8502-7b8d4d0619b0';
+    $pane->panel = 'navigation';
+    $pane->type = 'block';
+    $pane->subtype = 'search-form';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'override_title' => 1,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+      'style' => 'default',
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 1;
+    $pane->locks = array();
+    $pane->uuid = 'f06a4c37-1ed2-4a64-8502-7b8d4d0619b0';
+    $display->content['new-f06a4c37-1ed2-4a64-8502-7b8d4d0619b0'] = $pane;
+    $display->panels['navigation'][1] = 'new-f06a4c37-1ed2-4a64-8502-7b8d4d0619b0';
   $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
