@@ -118,7 +118,7 @@ function kultur_frontpage_default_page_manager_handlers() {
     $pane->panel = 'branding';
     $pane->type = 'block';
     $pane->subtype = 'menu-menu-tabs-menu';
-    $pane->shown = FALSE;
+    $pane->shown = TRUE;
     $pane->access = array();
     $pane->configuration = array(
       'override_title' => 1,
