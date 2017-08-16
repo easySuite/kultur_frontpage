@@ -10,7 +10,7 @@
 function kultur_frontpage_domain_default_domains() {
   $domains = array();
   $domains['kulturoen_dk'] = array(
-    'subdomain' => 'kultur.midbib.stg.easysuite.dk',
+    'subdomain' => 'md.kultur.midbib.dev.inlead.dk',
     'sitename' => 'KulturØen',
     'scheme' => 'http',
     'valid' => 1,
@@ -498,7 +498,7 @@ function kultur_frontpage_domain_theme_default_themes() {
           'carousel_tab_active_background' => '#a6d6cc',
           'header_background_color' => '#e8e7e7',
         ),
-        'color_kultur_subtheme_logo' => 'public://color/kultur_subtheme-db0ba9ae/logo.png',
+        'color_kultur_subtheme_logo' => 'public://color/kultur_subtheme-8515cf60/logo.png',
       ),
       'status' => 1,
       'filepath' => 'public://domain-2',
