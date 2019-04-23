@@ -5,3 +5,12 @@
  */
 
 include_once 'kultur_frontpage.features.inc';
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function kultur_frontpage_form_views_exposed_form_alter(&$form, &$form_state, $form_id) {
+  if (arg(0) == 'libraries') {
+    $form['title']['#attributes']['placeholder'] = t('Search library by title');
+  }
+}
